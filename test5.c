@@ -29,40 +29,40 @@ int main(){
     enter();
     //printf("Thank you for pressing enter\nYou have to press enter after reading my messages\n");
     enter();
-//Asking do you know me??
-    printf("\nDo you know, Who am i ???????\n");
-    printf("Please reply in y/n\n");
-    enter ();
+// //Asking do you know me??
+//     printf("\nDo you know, Who am i ???????\n");
+//     printf("Please reply in y/n\n");
+//     enter ();
 
 //Giving intro
-    printf("\nWell I know you dont know me :(\nBut i know you:)\nSo it will be better if we get to know each other\n");
-    printf("My name is RoboEm03Me\n");
+//    printf("\nWell I know you dont know me :(\nBut i know you:)\nSo it will be better if we get to know each other\n");
+    printf("Hello :p\nMy name is RoboEm03Me\n");
     enter();
 
 //Asking to start discussion or not.....
-    printf("\nDo you want to start discussion ????\nReply in y or n\n");
-    scanf("%c",&reply);
-    if(reply==89 || reply==121){
-        printf("Nice to hear that\n");
-    }
-    else{
-        printf("\n\nIts so sad no one wants to chat with me :((((\n");
-        printf("Can you pls chat with me :/?\n\n");
-        printf("Please press y to start discussion :/\n");
-        reply_no();
-    }
+    // printf("\nDo you want to start discussion ????\nReply in y or n\n");
+    // scanf("%c",&reply);
+    // if(reply==89 || reply==121){
+    //     printf("Nice to hear that\n");
+    // }
+    // else{
+    //     printf("\n\nIts so sad no one wants to chat with me :((((\n");
+    //     printf("Can you pls chat with me :/?\n\n");
+    //     printf("Please press y to start discussion :/\n");
+    //     reply_no();
+    // }
 
 //Getting started
-    printf("\nSo whenever i will ask you some questions and you have to tell whether it is true(y) or false(n)\n");
+    printf("\nSo whenever i will ask you some questions and you have to tell whether it is true(y) or false(n)\nNow please press enter.....\n");
     enter();  
 
 //How are you?
-    printf("\nOhh Sorry......\nI forget to ask this \nHow are you ???\n");
+    printf("\nOhh Sorry......\nI forget to ask this \nHow are you ???\nReply 'y' for Fine otherwise 'n'\n");
     reply_fine();
     enter();
 
 //College life
-    printf("\nHow is your college life going on ?\n");      
+    printf("\nHow is your studies going on ?\nReply 'y' for Fine otherwise 'n'\n");      
     scanf("%c",&reply_clg);  
   
     if (reply_clg=='y' || reply_clg=='Y')
@@ -135,7 +135,7 @@ void enter(){
 
 void reply_fine(){
     char a;
-    printf("Please reply in y or n\n");
+    //printf("Please reply in y or n\n");
     scanf("%c",&a);
     if(a==89 || a==121){
         printf("Wow, Sounds great\n");
